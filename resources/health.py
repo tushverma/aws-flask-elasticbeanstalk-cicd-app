@@ -5,4 +5,4 @@ flask.helpers._endpoint_from_view_func = flask.scaffold._endpoint_from_view_func
 
 class Health(Resource):
     def get(self):
-        return {"message": "Flask App is working, please use postman"}
+        return {"message": "Feature 1 Flask App is working, please use postman"}
